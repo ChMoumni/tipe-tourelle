@@ -4,11 +4,11 @@ Ce document décrit brièvement le rôle de chaque pièce modélisée sur FreeCA
 Une version définitive (schéma cinématique, graphe de liaisons) sera rédigée en LaTeX.
 
 ## Pièce 0 – Base
-- Fixation de la breadboard, de la carte Arduino et du joystick.
+- Fixation du breadboard, de la carte Arduino et du joystick.
 - Assure la stabilité de la tourelle.
 
 ## Pièce 1 – Capot / support servo horizontal
-- Protège les câblages et composants électroniques.
+- Protège les câblages et composants électroniques (fixé sur la pièce 0).
 - Supporte le servomoteur chargé du mouvement horizontal (pan).
 
 ## Pièce 2 – Support servo vertical (en cours)
