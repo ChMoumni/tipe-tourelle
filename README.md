@@ -37,6 +37,7 @@ Projet mené dans le cadre de mon TIPE (2025-2026).
 - [Code Arduino](./code/joystick_servo.ino)
 - [Schéma Wokwi](./code/diagram.json)
 - [Description provisoire des pièces](./docs/description_pieces.md)
+- [Simulation : Commande de servomoteur par joystick](https://wokwi.com/projects/456061970656974849)
 
 ## 📝 Notes
 
