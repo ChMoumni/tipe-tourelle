@@ -28,7 +28,7 @@ Projet mené dans le cadre de mon TIPE (2025-2026).
     - [ ] Pièce 3 – *en cours*
     - [ ] Assemblage virtuel – *à faire*
 - [ ] Étude cinématique (graphe de liaison, schéma) – *en cours*
-- [ ] Mesures électroaimant (résistance R, inductance L) et dimensionnement de la capacité C – *en cours*
+- [x] Mesures électroaimant (résistance R, inductance L) et dimensionnement de la capacité C 
 - [ ] Rédaction du rapport final – *à faire*
 - [ ] Prototypage physique (impression 3D, montage final) – *à faire*
 
