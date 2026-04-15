@@ -24,7 +24,7 @@ Projet mené dans le cadre de mon TIPE (2025-2026).
 - [x] Modélisation 3D :
     - [x] Pièce 0 (base)
     - [x] Pièce 1 (capot / support servo horizontal)
-    - [ ] Pièce 2 – *en cours*
+    - [x] Pièce 2 
     - [ ] Pièce 3 – *en cours*
     - [ ] Assemblage virtuel – *à faire*
 - [ ] Étude cinématique (graphe de liaison, schéma) – *en cours*
