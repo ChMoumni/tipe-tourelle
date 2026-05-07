@@ -25,12 +25,12 @@ Projet mené dans le cadre de mon TIPE (2025-2026).
     - [x] Pièce 0 (base)
     - [x] Pièce 1 (capot / support servo horizontal)
     - [x] Pièce 2 
-    - [ ] Pièce 3 – *en cours*
-    - [ ] Assemblage virtuel – *à faire*
+    - [x] Pièce 3 
+    - [x] Assemblage virtuel – *à faire*
 - [ ] Étude cinématique (graphe de liaison, schéma) – *en cours*
 - [x] Mesures électroaimant (résistance R, inductance L) et dimensionnement de la capacité C 
-- [ ] Rédaction du rapport final – *à faire*
-- [ ] Prototypage physique (impression 3D, montage final) – *à faire*
+- [ ] Rédaction du rapport final – *en cours*
+- [x] Prototypage physique (impression 3D, montage final)
 
 ## 🔗 Liens utiles
 
