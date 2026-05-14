@@ -1,45 +1,80 @@
 # TIPE – Tourelle de visée motorisée
 
-Conception et réalisation d’une tourelle motorisée pilotée par joystick.  
+<p align="center">
+  <img src="images/systeme_complet.jpg" alt="Système complet" width="600"/>
+</p>
+
+Conception et réalisation d'une tourelle motorisée pilotée par joystick, avec suivi automatique d'objet par caméra Pixy2.  
 Projet mené dans le cadre de mon TIPE (2025-2026).
+
+## 🎯 Objectif du projet
+
+Développer un système de visée motorisé capable de :
+- Être piloté manuellement via un joystick
+- Suivre automatiquement un objet coloré en temps réel
+- Servir de plateforme d'étude pour l'asservissement et la cinématique
 
 ## 📁 Structure du dépôt
 
-- `code/` : code Arduino (C++ embarqué) et simulation Wokwi (schéma + programme)
-- `cad/` : modèles 3D FreeCAD (pièces, assemblage, composants génériques)
-- `docs/` : documentation technique (descriptions provisoires, études à venir)
-- `images/` : photos du montage réel et captures d’écran (à venir)
+\```
+tipe-tourelle/
+├── code/               # Code Arduino et simulation Wokwi
+│   └── tipe_tourelle_visee.ino
+├── cad/                # Modèles 3D FreeCAD
+├── images/             # Photos et captures d'écran
+│   ├── systeme_complet.jpg
+│   └── comparaison_modelisation_reel.jpg
+├── docs/               # Documentation
+└── README.md
+\```
 
 ## 🛠️ Technologies utilisées
 
-- Arduino / C++ embarqué
-- Wokwi (simulation)
-- FreeCAD (modélisation 3D)
-- Électronique : soudure, câblage, servomoteurs
+- **Microcontrôleur** : Arduino Uno
+- **Langage** : C++ embarqué
+- **Capteur** : Pixy2 CMUcam (reconnaissance couleur)
+- **Actionneurs** : 2 servomoteurs
+- **Entrée** : Joystick analogique 2 axes
+- **Simulation** : Wokwi
+- **CAO** : FreeCAD
 
-## 🧩 État d’avancement
+## 🎮 Fonctionnalités
 
-- [x] Simulation Wokwi (code + schéma)
-- [x] Câblage sur breadboard, soudure du joystick et connexion à la carte Arduino
-- [x] Modélisation 3D :
-    - [x] Pièce 0 (base)
-    - [x] Pièce 1 (capot / support servo horizontal)
-    - [x] Pièce 2 
-    - [x] Pièce 3 
-    - [x] Assemblage virtuel – *à faire*
-- [ ] Étude cinématique (graphe de liaison, schéma) – *en cours*
-- [x] Mesures électroaimant (résistance R, inductance L) et dimensionnement de la capacité C 
-- [ ] Rédaction du rapport final – *en cours*
-- [x] Prototypage physique (impression 3D, montage final)
+### Mode Manuel
+- Pilotage horizontal/vertical par joystick
+- Zone morte configurable
+- Vitesse progressive
 
-## 🔗 Liens utiles
+### Mode Automatique
+- Détection d'objets colorés
+- Asservissement PD
+- Commutation manuel/auto par série
 
-- [Code Arduino](./code/joystick_servo.ino)
-- [Schéma Wokwi](./code/diagram.json)
-- [Description provisoire des pièces](./docs/description_pieces.md)
-- [Simulation : Commande de servomoteur par joystick](https://wokwi.com/projects/456061970656974849)
+### Commandes série
+- `a` : Mode automatique
+- `m` : Mode manuel  
+- `c` : Centrer la tourelle
 
-## 📝 Notes
+## 🔧 Installation
 
-- La documentation définitive (étude cinématique, calculs électroaimant) sera rédigée en LaTeX et ajoutée ultérieurement dans `docs/`.
-- Ce dépôt est régulièrement mis à jour au fil de l’avancement du projet.
+1. Cloner le dépôt
+2. Câbler selon schéma (servos pins 9/10, joystick A0/A1)
+3. Téléverser le code Arduino
+4. Ouvrir le moniteur série (115200 bauds)
+
+## 📊 Résultats
+
+<p align="center">
+  <img src="images/comparaison_modelisation_reel.jpg" alt="Comparaison" width="800"/>
+</p>
+
+## 🧩 État d'avancement
+
+- [x] Simulation Wokwi
+- [x] Câblage et tests
+- [x] Modélisation 3D complète
+- [x] Impression 3D
+- [x] Assemblage final
+- [x] Code fonctionnel (manuel + auto)
+- [ ] Rapport final (en cours)
+
