@@ -91,7 +91,7 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 ## 🧩 État d'avancement
 
 ### Mécanique
-- [x] Modélisation 3D complète (6 pièces)
+- [x] Modélisation 3D complète (6 pièces) [`cad/`](cad/) (visualisables directement sur Github)
 - [x] Impression 3D
 - [x] Assemblage final
 
