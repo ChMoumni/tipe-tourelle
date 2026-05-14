@@ -65,7 +65,7 @@ tipe-tourelle/
 ## 📊 Résultats
 
 <p align="center">
-  <img src="images/comparaison_modelisation_reel.jpg" alt="Comparaison" width="800"/>
+  <img src="images/Tour_modelisee_montee.png" alt="Comparaison" width="800"/>
 </p>
 
 ## 🧩 État d'avancement
