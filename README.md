@@ -76,11 +76,11 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 
 > Voir section 7 du rapport pour les détails de conception et les essais.
 
-## 🔗 Simulation en ligne
+## 🔗 Simulation du mode manuel (Wokwi)
 
-[→ Tester la simulation sur Wokwi](https://wokwi.com/projects/456061970656974849)
+[→ Simuler la commande joystick → servomoteurs](https://wokwi.com/projects/456061970656974849)
 
-*Le code final est disponible dans [`code/tipe_tourelle_visee.ino`](code/tipe_tourelle_visee.ino)*
+*Version préliminaire ayant servi de base au mode manuel actuel (sans zone morte ni gestion de vitesse). Le code final de la tourelle complète est disponible dans [`code/tipe_tourelle_visee.ino`](code/tipe_tourelle_visee.ino).*
 
 ## 🔧 Installation
 
@@ -103,7 +103,7 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 - [x] Assemblage final
 
 ### Électronique & Code
-- [x] Simulation Wokwi
+- [x] Simulation Wokwi (version préliminaire)
 - [x] Câblage et tests
 - [x] Code fonctionnel (manuel + auto)
 - [x] Circuit coilgun opérationnel
@@ -119,7 +119,3 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 - [x] Description des pièces
 - [ ] Rapport final (en cours - rédaction LaTeX)
 - [ ] Schéma cinématique (graphe des liaisons)
-
-## 📝 Licence
-
-MIT - Libre d'utilisation
