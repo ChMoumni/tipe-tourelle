@@ -1,7 +1,7 @@
 # TIPE – Tourelle de visée motorisée
 
 <p align="center">
-  <img src="images/systeme_complet.jpg" alt="Système complet" width="600"/>
+  <img src="images/systeme_complet.png" alt="Système complet" width="600"/>
 </p>
 
 Conception et réalisation d'une tourelle motorisée pilotée par joystick, avec suivi automatique d'objet par caméra Pixy2.  
