@@ -4,7 +4,7 @@
   <img src="images/systeme_complet.png" alt="Système complet" width="600"/>
 </p>
 
-Conception et réalisation d'une tourelle motorisée pilotée par joystick, avec suivi automatique d'objet par caméra Pixy2.  
+Conception et réalisation d'une tourelle motorisée pilotée par joystick, avec suivi automatique d'objet par caméra Pixy2 et système de tir électromagnétique (coilgun).  
 Projet mené dans le cadre de mon TIPE (2025-2026).
 
 ## 🎯 Objectif du projet
@@ -12,6 +12,7 @@ Projet mené dans le cadre de mon TIPE (2025-2026).
 Développer un système de visée motorisé capable de :
 - Être piloté manuellement via un joystick
 - Suivre automatiquement un objet coloré en temps réel
+- Déclencher un tir électromagnétique sur cible
 - Servir de plateforme d'étude pour l'asservissement et la cinématique
 
 ## 🛠️ Technologies utilisées
@@ -75,6 +76,12 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 
 > Voir section 7 du rapport pour les détails de conception et les essais.
 
+## 🔗 Simulation en ligne
+
+[→ Tester la simulation sur Wokwi](https://wokwi.com/projects/456061970656974849)
+
+*Le code final est disponible dans [`code/tipe_tourelle_visee.ino`](code/tipe_tourelle_visee.ino)*
+
 ## 🔧 Installation
 
 1. Cloner le dépôt
@@ -91,7 +98,7 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 ## 🧩 État d'avancement
 
 ### Mécanique
-- [x] Modélisation 3D complète (6 pièces) [`cad/`](cad/) (visualisables directement sur Github)
+- [x] Modélisation 3D complète (6 pièces) [`cad/`](cad/) (visualisables directement sur GitHub)
 - [x] Impression 3D
 - [x] Assemblage final
 
@@ -113,3 +120,6 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 - [ ] Rapport final (en cours - rédaction LaTeX)
 - [ ] Schéma cinématique (graphe des liaisons)
 
+## 📝 Licence
+
+MIT - Libre d'utilisation
