@@ -135,6 +135,3 @@ La tourelle intègre un canon électromagnétique (coilgun) en tête de système
 - [ ] Rapport final (en cours - rédaction LaTeX)
 - [ ] Schéma cinématique (graphe des liaisons)
 
-## 📝 Licence
-
-MIT - Libre d'utilisation
