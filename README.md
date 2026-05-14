@@ -14,28 +14,6 @@ Développer un système de visée motorisé capable de :
 - Suivre automatiquement un objet coloré en temps réel
 - Servir de plateforme d'étude pour l'asservissement et la cinématique
 
-## 📁 Structure du dépôt
-
-\```
-tipe-tourelle/
-├── code/               # Code Arduino et simulation Wokwi
-│   └── tipe_tourelle_visee.ino
-├── cad/                # Modèles 3D FreeCAD & Fusion 360
-├── images/             # Photos et captures d'écran
-│   ├── systeme_complet.png
-│   ├── Photo_des_pieces.png
-│   ├── photo-0.png
-│   ├── photo-1.png
-│   ├── photo-2.png
-│   ├── photo-3.png
-│   ├── photo-4.png
-│   ├── photo-5.png
-│   └── Tour_modelisee_montee.png
-├── docs/               # Documentation
-│   └── description_pieces.md
-└── README.md
-\```
-
 ## 🛠️ Technologies utilisées
 
 - **Microcontrôleur** : Arduino Uno
